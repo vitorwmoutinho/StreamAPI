@@ -1,7 +1,13 @@
 package desafio;
 
+/*
+Desafio 2 - Imprima a soma dos números pares da lista:
+Utilizando a Stream API, realize a soma dos números pares da lista e exiba o resultado no console.
+ */
+
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
 
 public class Desafio2 {
@@ -14,7 +20,10 @@ public class Desafio2 {
             }
         };
 
-        numeros.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
+
+        int somaPares = numeros.stream().filter(n -> n % 2 == 0).mapToInt(Integer::intValue).sum();
+
+        System.out.println(somaPares);
 
     }
 }
