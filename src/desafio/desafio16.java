@@ -19,7 +19,12 @@ public class desafio16 {
                 .filter(n -> n % 2 == 0)
                 .collect(Collectors.toList());
 
-        System.out.println(numerosPares);
+        List<Integer> numerosImpares = numeros.stream()
+                .filter(n -> n % 2 != 0)
+                .collect(Collectors.toList());
+
+        System.out.println("Numeros Pares"+numerosPares);
+        System.out.println("Numeros Ímpares"+numerosImpares);
 
 
 
