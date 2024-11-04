@@ -2,7 +2,8 @@ package desafio;
 
 /*
 Desafio 2 - Imprima a soma dos números pares da lista:
-Utilizando a Stream API, realize a soma dos números pares da lista e exiba o resultado no console.
+Utilizando a Stream API, realize a soma dos números pares
+da lista e exiba o resultado no console.
  */
 
 import java.util.Arrays;

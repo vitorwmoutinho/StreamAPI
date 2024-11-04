@@ -1,7 +1,8 @@
 package desafio;
 /*
 esafio 4 - Remova todos os valores ímpares:
-Utilize a Stream API para remover os valores ímpares da lista e imprima a lista resultante no console.
+Utilize a Stream API para remover os valores ímpares da lista
+e imprima a lista resultante no console.
  */
 import java.util.Arrays;
 import java.util.List;
