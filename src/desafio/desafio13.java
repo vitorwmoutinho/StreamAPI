@@ -14,7 +14,7 @@ public class desafio13 {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
         List<Integer> numerosFiltrados = numeros.stream()
-                .filter(num -> num >= 5 && num <= 10) // Filtra números entre 5 e 10
+                .filter(n -> n >= 1 && n <= 4) // Filtra números entre 5 e 10
                 .collect(Collectors.toList()); // Coleta os resultados em uma lista
 
         System.out.println("Números entre 5 e 10: " + numerosFiltrados);
